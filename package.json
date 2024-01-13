@@ -1,0 +1,17 @@
+{
+  "name": "gravitation-simulation",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start:client": "cd Solution/Client/ && npm run start"
+  },
+  "workspaces": [
+    "./Solution/Client/",
+    "./Solution/Core/",
+    "./Source/Simulation/"
+  ],
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "npm-run-all": "^4.1.5"
+  }
+}
